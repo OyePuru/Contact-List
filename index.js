@@ -1,10 +1,6 @@
 const express   =   require('express')
 const path=require('path')
 const port=8000
-var contactList = [
-    { "name" : "Puru" , phone : "9717414053"},
-    { "name" : "Bhai" , phone : "8130260247"}
-]
 const db = require('./config/mongoose')
 const Contact = require('./models/contact')
 const app = express()
